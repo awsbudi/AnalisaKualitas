@@ -14,8 +14,8 @@ import io
 # CONFIG
 # -----------------------------
 st.set_page_config(page_title="Risk Management BTPN Syariah Analysis", layout="wide")
-st.title(" Risk Management BTPN Syariah 
-            Analysis Tools 📊")
+st.title("Risk Management BTPN Syariah")
+st.title("Analysis Tools 📊")
 
 # Sidebar
 st.sidebar.title("Navigation")
@@ -245,6 +245,7 @@ if page == "Upload & Analysis" and df is not None:
 
             st.markdown("---")
             st.caption("📘 Garis merah menunjukkan titik split hasil decision tree terhadap fitur terkuat setiap metode.")
+
 
 
 
